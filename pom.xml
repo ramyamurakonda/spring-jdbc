@@ -62,12 +62,12 @@
         <repository>
             <id>deployment</id>
             <name>Releases Repository</name>
-            <url>http://192.168.1.24:8081/nexus/content/repositories/releases</url>
+            <url>http://localhost:8081/nexus/content/repositories/releases</url>
         </repository>
         <snapshotRepository>
             <id>deplyoment</id>
             <name>Snapshots Repository</name>
-            <url>http://192.168.1.24:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
